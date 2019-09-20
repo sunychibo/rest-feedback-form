@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
+  <title>Feedback form</title>
+</head>
+
+<body>
+  <main class="main-content">
+    <section class="section-form">
+      <div class="feedback-form__container">
+        <form class="feedback-form" id="feedback-form" novalidate>
+          <div class="feedback-form__field-wrapper">
+            <fieldset label="Имя" class="feedback-form__fieldset">
+              <input type="text" id="firstname" name="firstname" placeholder="Иван" value="" class="feedback-form__field" data-required="required">
+              <label for="firstname" class="feedback-form__label">Имя</label>
+            </fieldset>
+          </div>
+          <div class="feedback-form__field-wrapper">
+            <fieldset label="Фамилия" class="feedback-form__fieldset">
+              <input type="text" id="lastname" name="lastname" placeholder="Иванов" value="" class="feedback-form__field" data-required>
+              <label for="lastname" class="feedback-form__label">Фамилия</label>
+            </fieldset>
+          </div>
+          <div class="feedback-form__field-wrapper">
+            <fieldset label="Email" class="feedback-form__fieldset">
+              <input type="email" id="email" name="email" placeholder="ivanov@google.com" value="" class="feedback-form__field" data-required>
+              <label for="email" class="feedback-form__label">Email</label>
+            </fieldset>
+          </div>
+          <div class="feedback-form__field-wrapper">
+            <fieldset label="Номер телефона" class="feedback-form__fieldset">
+              <input type="tel" id="phonenumber" name="phonenumber" value="" class="feedback-form__field" data-required="required" placeholder="+7 (999) 999-99-99">
+              <label for="phonenumber" class="feedback-form__label">Номер телефона</label>
+            </fieldset>
+          </div>
+          <div class="feedback-form__field-wrapper">
+            <fieldset label="Сообщение" class="feedback-form__fieldset">
+              <textarea id="message" name="message" placeholder="Здравствуйте!" value="" class=" feedback-form__field feedback-form__field-textarea" data-required="required"></textarea>
+              <label for="message" class="feedback-form__label">Сообщение</label>
+            </fieldset>
+          </div>
+          <button id="submit" type="submit" class="feedback-form__button feedback-form__button--submit">Отправить</button>
+        </form>
+        <div class="feedback-form__overlay">
+          <div class="feedback-form__loader loader">Loading...</div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

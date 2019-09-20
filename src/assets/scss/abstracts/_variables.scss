@@ -1,0 +1,22 @@
+$text-font-stack: 'Montserrat', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+$white: rgb(255, 255, 255);
+
+$black: rgb(0, 0, 0);
+$transparent-black: rgba(0, 0, 0, 0);
+$semi-transparent-black: rgba(0, 0, 0, 0.5);
+
+$dark-clay: rgb(31, 38, 47);
+$light-clay: rgb(38, 46, 58);
+
+$cinnabar: rgb(229, 75, 75);
+$silver-chalice: rgb(169, 169, 169);
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+// Tablets and small desktops
+$screen-lg-min: 992px;
+// Large tablets and desktops
+$screen-xl-min: 1200px;

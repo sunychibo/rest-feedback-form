@@ -1,0 +1,21 @@
+.feedback-form__button {
+  position: relative;
+  user-select: none;
+  color: $white;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  box-shadow: $black 0px 0px 0px 0px;
+  background-color: $light-clay;
+  transition: background-color 0.1s ease 0s, color 0.4s ease 0s, padding 0.4s ease 0s;
+  border-radius: 2px;
+  overflow: hidden;
+  padding: 12px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.feedback-form__button:focus,
+.feedback-form__button:hover {
+  background-color: $dark-clay;
+}
